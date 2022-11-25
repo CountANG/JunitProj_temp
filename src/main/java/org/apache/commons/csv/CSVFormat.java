@@ -1072,7 +1072,7 @@ public final class CSVFormat implements Serializable {
 
     //注入错误，将trim改为!trim
     public boolean getTrim() {
-        return !trim;
+        return trim;
     }
 
     @Override
